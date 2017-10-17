@@ -1,0 +1,75 @@
+.search .ion-size{
+  height:30px;
+  font-size:22px;
+  line-height:34px;
+}
+.search .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.search .head-ipt{
+  border-bottom:1px solid #ffffdb;
+  border-radius: 0px;
+  margin: 0 15px;
+  padding:0;
+}
+.search .btn-right{
+  background-color:#fff;
+	border-radius:16px;
+  min-height: 25px !important;
+  margin:0px !important;
+  height: 25px;
+  line-height: 23px !important;
+  text-align:center;
+  width:50px;
+}
+.search .l-size{
+  color: #fff;
+  font-size: 28px;
+  height: 38px;
+  line-height: 36px;
+  text-align: center;
+  width: 40px; 
+}
+.search .head-ipt input[type="search"] {
+  color: #fff ;
+  font-size:16px;
+}
+.search ion-content{
+	top: 44px;
+	background-color:#fff;
+	height:100%;
+}
+.search .bg{
+	color:#303030;
+	padding:10px 0;
+}
+.search .item{
+	border: none;
+}
+.search .history{
+	padding:5px 15px;
+}
+.search .history>span{
+	width:80px;
+	height:30px;
+	border-radius:20px;
+	line-height:28px;
+	text-align:center;
+	background-color:#e4e2df;
+	margin-right:12px;
+}
+.search .absolute{
+	position: fixed;
+	bottom:0;
+	left:0;
+}
+.search .row,.col{
+	padding:0;
+}
+.search .voice{
+	border-radius:50px;
+	background-color:#e7e5e2;
+}

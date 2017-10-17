@@ -1,0 +1,39 @@
+{
+  "name": "project-express",
+  "version": "1.0.0",
+  "description": "this is a express project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "keewer",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.1",
+    "crypto": "^1.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "mysql": "^2.14.1",
+    "nodemailer": "^4.1.0",
+    "q": "^1.5.0",
+    "serve-favicon": "^2.4.4",
+    "url": "^0.11.0"
+  },
+  "dependencies": {
+    "@alicloud/sms-sdk": "^1.0.2",
+    "body-parser": "^1.18.1",
+    "crypto": "^1.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "mysql": "^2.14.1",
+    "nodemailer": "^4.1.0",
+    "q": "^1.5.0",
+    "serve-favicon": "^2.4.4",
+    "uuid": "^3.1.0"
+  }
+}

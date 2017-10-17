@@ -1,0 +1,84 @@
+<div class="confirmOrder">	
+  	<ion-header-bar class="bar bar-header bar-dark">
+		<div class="button button-clear" onClick="javascript:history.back(-1);"><span class="ion ion-ios-arrow-left ion-size fl"></span><span class="text-size fl" >返回</span></div>
+		<div class="title">确认订单</div>
+ 	</ion-header-bar>	
+  	<ion-content class="top-head" has-bouncing="false" scrollbar-y="false">
+	  	<div class="bg">
+	  		<div class="item-margin item-less">
+				<div class="item item-icon-right">
+					<span class="fl">收货人:&nbsp;网红</span>
+					<div class="item-note">15801082774</div>
+				</div>
+			  	<div class="item  item-icon-right" ng-click="openModal();">
+					收货地址:&nbsp;广东省广州市天河区车陂街道苏宁广场
+					<span class="icon ion-ios-arrow-right"></span>
+				</div>
+			</div>
+			<div class="confirmOrder-box">
+				<div class=" item item-thumbnail-left bg-item">
+			      	<img src="/images/my-order.png">
+			      	<h2>鸟语二代</h2>	  	
+				  	<div>
+						<p>蓝牙音响/创意灯饰<p>
+						<p ><span>款色：</span>米白色</p>
+					</div>
+					<div class="color-text">
+						<div class="fl">¥138</div>
+						<div class="fr"><span>×</span><span>1</span></div>
+					</div>		
+			    </div>
+				<div class="item item-text ">
+					<span class="fl">购买数量</span>
+					<div class="item-note">
+						<span class="fr ion-ios-plus-empty plus"
+						></span>
+						<input class="fr" type="text" value="1">
+						<span class="fr ion-ios-minus-empty minus"></span>
+					</div>
+				</div>
+				<div class="item  item-icon-right">
+					<span class="fl">配送方式</span>
+					<span class="item-note">快递  免邮</span>
+					<span class="icon ion-ios-arrow-right"></span>
+				</div>
+				<div class="item  item-icon-right">
+					<span class="fl">运费险</span>
+					<span class="item-note">卖家送,确认收货前退货可赔</span>
+					<span class="icon ion-ios-arrow-right"></span>
+				</div>
+			  	<label class="item item-input">
+				    <span class="say input-label">卖家留言:</span>
+				    <input type="text" placeholder="选填:对本次交易的说明(建议填写已完成">
+			  	</label>
+				<div class="item">
+					<div class="item-note">
+						<span>共1件商品&nbsp;&nbsp;</span><span>小计:&nbsp;</span><span>￥198.00</span>
+					</div>
+				</div>
+			</div>
+			<div class="payment">
+				<label class="item item-text" >
+				    <span class="fl">朋友代付(不支持运费险)</span>
+				    <label class="yes fr">
+						<input class="ipt" type="checkbox" name="">
+						<div class="icon-box-less icon ion-checkmark-round fl">
+						</div>	
+					</label>
+			  	</label>
+			  	<label class="item item-text" >
+				    <span class="fl">匿名购买</span>
+				    <label class="yes fr">
+						<input class="ipt" type="checkbox" name="" checked="checked">
+						<div class="icon-box-less icon ion-checkmark-round fl">
+						</div>	
+					</label>
+			  	</label>
+		  	</div>
+		</div>				
+  	</ion-content>
+  	<ion-footer-bar class="my-footer ">
+  		<div class="sure"><span>合计:&nbsp;</span><span>￥198.00&nbsp;&nbsp;</span><span>提交订单</span></div>
+	</ion-footer-bar>
+</div>
+

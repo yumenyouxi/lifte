@@ -1,0 +1,99 @@
+.product ion-header-bar{
+	background-size:0;
+	border:0;
+}
+.product .head-bg{
+	background-color:rgba(255,255,255,0.0);
+
+}
+.product .head-bg>div{
+	color:#fff;
+	width:31px;
+	height: 31px;
+	border-radius:50%;
+	background-color:rgba(154,150,145,0.5);
+	line-height:28px;
+	text-align: center;
+	font-size: 22px;
+}
+.product .head-bg>div:nth-child(3){
+	margin-right: 50px;
+	font-size:18px;
+}
+.product .head-bg>div:nth-child(2){
+	margin:auto;
+	width:59px;
+	height:44px;
+	background-color:rgba(154,150,145,.5);
+	border-radius:0;
+	opacity: 0;
+}
+.product ion-content{
+  width:100%;
+  top:0px;
+  bottom:45px;
+  background-color: #f2f2f2;
+}
+.product .size-text{
+	font-size:22px;
+}
+.product .annotation{
+	padding:0 15px;
+	background-color:#fff;
+}
+.product .item{
+	color:#303030;
+	border:none;
+}.product .color{
+	color:#ea321a;
+	padding:0px 15px;
+}
+.product .row-text{
+	background-color:#fff;
+	padding: 10px 15px;
+}
+.product .col{
+	color:#595959;
+	padding:0;
+}
+.product .row-text>div:nth-child(1){
+	text-align:left;
+}
+.product .row-text>div:nth-child(2){
+	text-align:center;
+}
+.product .row-text>div:nth-child(3){
+	text-align:right;
+}
+.product .icon-annotation{
+	color:#ea321a;
+	padding:5px 15px;
+}
+.product .icon-annotation>span:nth-child(2){
+	padding-right:25px;
+}
+.product .line{
+	width:35%;
+	height: 1px;
+    border-top: 1px solid #595959;
+    font-size: 12px;
+    text-align: center;
+    margin:15px auto;
+}
+.product .line >span{
+    position: relative;
+    top: -10px;
+    background: #f2f2f2;
+    padding: 0 5px;
+}
+.product .line i{
+	font-size:15px;
+}
+.product .btn{
+	width:40%;
+	margin:0 auto;
+	padding:25px 0;
+}
+.product .evaluate{
+	background-color:#fff;
+}

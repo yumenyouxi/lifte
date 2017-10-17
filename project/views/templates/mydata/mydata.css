@@ -1,0 +1,48 @@
+.mydata .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.mydata .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.mydata .bg{
+  background-color: #f3f2f0;
+  padding-bottom: 10px;
+}
+.mydata ion-content{
+  width:100%;
+  top:44px;
+  bottom:49px;
+  margin:0;
+  background-color: #f3f2f0;
+}
+.mydata .item-margin{
+  margin-bottom: 10px;
+}
+.mydata .item{
+  color:#303030;
+  padding:10px 15px;
+  border:none;
+}
+.mydata .item-less{
+  padding:3px 15px !important;
+
+}
+.mydata .item{
+  padding:10px 15px;
+  border:none;
+}
+.mydata .item-img-head{
+  width:40px;
+  height:40px;
+}
+.mydata .item-text{
+  line-height: 38px;
+}
+.mydata .item-text>span:nth-child(1){
+  padding-right:15px;
+}

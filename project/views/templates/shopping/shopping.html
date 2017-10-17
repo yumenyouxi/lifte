@@ -1,0 +1,112 @@
+<div class="shopping">
+  	<ion-header-bar class="bar bar-header bar-my bar-dark">
+		<div class="title">购物车</div>
+
+		<div class="button button-clear pull-right btn" ng-click="amends();">{{scopeText}}</div>
+		<div class="button button-clear" ng-click="jump('message');"><span class="ion ion-ios-chatbubble-outline ion-size"></span></div>
+ 	</ion-header-bar>
+	
+  	<ion-content class="top-head" has-bouncing="false" scrollbar-y="false">
+	  	<div class="bg">
+		  	<div class="order-bg" ng-repeat="v in shoppingdata" ng-module="shoppingmake">
+		  		<div class="item it-p" >
+				    <label class="yes">
+						<input class="ipt" type="checkbox" name="" ng-checked="v.isChange" ng-click="mycheck($index);">
+						<div class="icon-box-less icon">
+							<div class="ion-checkmark-round "></div>
+						</div>	
+					</label>
+					<div class="item-note" ng-click="comile($index)">{{v.text}}</div>
+			  	</div>
+				<div class="shopping-box">
+					<label class="yes">
+						<input class="ipt" type="checkbox" name="" ng-checked="v.isChange" ng-click="mycheck($index);">
+						<div class="icon-box-less icon">
+							<div class="ion-checkmark-round "></div>
+						</div>	
+					</label>
+					<div class="goods">
+						<div class=" item item-thumbnail-left bg-item">
+					      	<img ng-src="{{v.imgurl}}">
+					      	<div class="explanatory" ng-show="v.isExplanatory">
+						      	<h2>{{v.titlename}}</h2>	  	
+							  	<div>
+									<p>{{v.sride}}<p>
+									<p ><span>款色：</span>{{v.color}}</p>
+								</div>
+								<div class="color-text">
+									<div class="fl">¥{{v.money}}</div>
+									<div class="fr"><span>×</span><span>{{v.num}}</span></div>
+								</div>
+							</div>
+							<div class="compile" ng-show="v.isComile">
+								<div class="num">
+									<span class="ion-ios-minus-empty fl" ng-click="minus($index);"></span>
+									<input type="" name="" class="fl" onkeyup="this.value=this.value.replace(/\D|^0/g,'')" onafterpaste="this.value=this.value.replace(/\D|^0/g,'')" ng-model="v.num">
+									<span class="ion-ios-plus-empty fl" ng-click="pull($index);"></span>
+								</div>
+								<div class="finish" ng-show="v.isFinish" ng-click="finish($index);">完成</div>
+							</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div ng-show="isSky"><h4 class="h-text" ng-click="jump('home')">亲，购物车空空如也，去逛逛吧</h4></div>	
+			<div class="recommend">
+				<div class="recommend-text">创意推荐</div>
+				<div class="row recommend-row">
+					<div class="col left">
+						<div>
+							<img src="/images/home5.png">
+						</div>
+						<div>森林宠物台灯</div>
+						<div><span>￥:</span><span>168</span></div>
+						<div class="list">
+							<div class="item item-icon-right it-ion">
+							    326人已购买
+							    <i class="icon ion-android-cart"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col right">
+						<div>
+							<img src="/images/home5.png">
+						</div>
+						<div>森林宠物台灯</div>
+						<div><span>￥:</span><span>168</span></div>
+						<div class="list">
+							<div class="item item-icon-right it-ion">
+							    326人已购买
+							    <i class="icon ion-android-cart"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+					
+  	</ion-content>
+  	<div class="settle">
+  		<label class="fl">
+			<label class="fl yes">
+				<input class="ipt" type="checkbox" name="" ng-click="allCheck()" ng-checked="isAll">
+				<div class="icon-box-less icon-box-white icon">
+					<div class="ion-checkmark-round "></div>
+				</div>	
+
+			</label>
+			<div class="fl yes-all">全选</div>
+		</label>
+		<div class="close fr" ng-show="isClo">
+			<div class="settle-bgr fr" ng-click="closeJump()">结算({{allMoney().allm}})</div>	
+			<div class="total fr">
+				<p><span>合计:&nbsp;&nbsp;￥</span><span>{{allMoney().allmoney}}</span></p>
+				<p>不含运费</p>
+			</div>
+		</div>
+		<div class="close fr" ng-show="isRem">
+			<div class="settle-bgr fr" ng-click="deleteshopping();">删除</div>	
+		</div>
+	</div>
+</div>
+    

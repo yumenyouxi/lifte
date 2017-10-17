@@ -1,0 +1,117 @@
+.confirmOrder .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.confirmOrder .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.confirmOrder .bg{
+  background-color:#e4e2df;
+}
+.confirmOrder ion-content{
+  width:100%;
+  top:44px;
+  bottom:44px;
+  background-color: #e4e2df;
+  margin:0;
+}
+.confirmOrder .say{
+  float: left;
+  max-width: 65px !important;
+}
+.confirmOrder .bg-item{
+  background-color:#f4f3f2;
+}
+.confirmOrder .color-text{
+  color:#ea321a;
+}
+.confirmOrder .item{
+  color:#303030;
+}
+.confirmOrder .item-note{
+  color:#303030;
+}
+.confirmOrder .item-less{
+  margin-bottom:10px;
+}
+.confirmOrder .item-less>.item{
+  border:none !important;
+}
+.confirmOrder .icon{
+  font-size:22px !important;
+}
+.confirmOrder .item-icon-right{
+  padding-right: 45px;
+}
+.confirmOrder .item-text{
+  padding-right:23px;
+}
+.confirmOrder .item-text>div{
+  width:100px;
+  height:20px
+}
+.confirmOrder .item-text input{
+  width:30px;
+  height:20px;
+  text-align: center;
+}
+.confirmOrder .item-text span{
+  background-color:#e4e2df;
+  color:#6b6965;
+  width:20px;
+  height:20px;
+  line-height: 20px;
+  text-align:center;
+}
+.confirmOrder .yes{
+  width:15px;
+  height:15px;
+}
+.confirmOrder .ipt{
+  display:none;
+}
+.confirmOrder .icon-box-less{
+  width:15px;
+  height:15px;
+  border:1px solid #303030;
+  color:#fff; 
+  text-align:center;
+  line-height: 13px;
+  font-size:12px !important;
+  
+}
+.confirmOrder .ipt:checked+div{
+  color:#ea321a;
+}
+.confirmOrder .payment{
+  margin-top: 10px;
+}
+.confirmOrder .payment>.item{
+  border: none;
+}
+.confirmOrder .my-footer{
+ background-size: 100% 0px;
+}
+.confirmOrder .sure{
+  position: absolute;
+  right:0;
+  overflow: hidden;
+  line-height:42px;
+  text-align:center;
+  font-size:16px;
+}
+.confirmOrder .sure>span:nth-child(2){
+  color:#ea321a;
+}
+.confirmOrder .sure>span:nth-child(3){
+  width:90px;
+  height: 44px;
+  color:#fff;
+  background-color:#ea321a;
+}
+
+

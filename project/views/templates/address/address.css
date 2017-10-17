@@ -1,0 +1,68 @@
+.address .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.address .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.address ion-content{
+  width:100%;
+  top:44px;
+  background-color: #f2f2f2;
+  bottom:43px;
+}
+.address .list-color{
+   color:#303030;
+   padding-top:18px;
+   margin-bottom: 9px;
+   background-color:#fff;
+}
+.address .item-note{
+  color:#303030;
+}
+.adderss .margin{
+  margin: 0 20px;
+}
+.address .it-pad{
+  padding :0px 20px 12px 20px;
+  border:1px solid #fff;
+}
+.address .it-pad>i{
+  font-size:16px;
+}
+.address .yes{
+  width:120px;
+  height:20px;
+  padding-left:20px;
+}
+.address .ipt{
+  display:none;
+}
+.address .icon-box-less{
+  width:15px;
+  height:15px;
+  color:#fff; 
+  text-align:center;
+  line-height: 13px;
+  border:1px solid #303030;
+  margin-right: 10px;
+  margin-top:2px;
+}
+.address .ipt:checked+div{
+  background-color:#ea321a;
+  border:1px solid #ea321a;
+}
+.address .ipt:checked+div+div{
+  color:#ea321a;
+}
+.address .it-pad-ad{
+  padding:5px;
+  margin-top: 1px;
+}
+.address .pad-r{
+  padding-right:20px;
+}

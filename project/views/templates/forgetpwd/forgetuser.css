@@ -1,0 +1,36 @@
+.ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.forgetuser .bg{
+	padding-top: 20px;
+	width:100%;
+}
+
+.forgetuser .placeholder-icon:first-child {
+    padding:0px; 
+    width: 25px;
+    height:28px;
+    line-height: 26px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+.forgetuser .item-input{
+	padding:9px 0 9px 20px;
+	border-color:#fff;
+}
+.forgetuser .i{
+	padding:0 12px;
+	color:#595959;
+}

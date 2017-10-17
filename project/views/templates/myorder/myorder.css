@@ -1,0 +1,158 @@
+.myorder .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.myorder .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.myorder .tab-nav{
+  height: 20px;
+  border:0;
+}
+.myorder .tab-nav span{
+  height: 20px;
+
+}
+.myorder .tav-nav a{
+  height: 20px;
+ }
+.myorder .tab-nav .tab-item{
+  height: 20px;
+  color:#363636;
+  font-size:12px;
+}
+.myorder ion-content{
+  top:64px;
+  bottom:49px;
+  background-color:#f2f2f2;
+}
+.myorder .bg{
+  background-color:#f2f2f2;
+  height:100%;
+}
+.myorder .order-bg{
+  background-color:#f2f2f2;
+  padding-bottom:10px;
+}
+.myorder .order-box{
+  background-color:#fff;
+}
+.myorder h2{
+  color:#303030;
+}
+.myorder .over{
+  overflow:hidden;
+}
+.myorder .over p{
+  color:#838383;
+}
+.myorder .return{
+  overflow:hidden;
+  padding-top:3px;
+  color:#303030;
+}
+.myorder .return>div:nth-child(1){
+  width:18px;
+  height:18px;
+}
+.myorder .return>div:nth-child(2){
+  color:#ea321a;
+  padding-left: 10px;
+  font-size:14px;
+}
+.myorder .safe{
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 15px;
+}
+.myorder .radius-safe{
+  width: 22px;
+  height: 22px;
+  border:1px solid #ea321a; 
+  border-radius: 50%; 
+  line-height: 18px;
+  text-align: center;
+  color:#ea321a;
+  font-size:12px;
+  margin:9px 12px 9px 0px;
+}
+.myorder .radius-safe-right{
+  width: calc(100% - 40px);
+}
+.myorder .radius-safe-right>div{
+  overflow: hidden;
+  width:100%;
+}
+.myorder .radius-safe-right>div:nth-child(2){
+  font-size: 12px;
+  color:#9a9a9a;
+}
+.myorder .safe-py .radius-safe-right{
+  width: calc(100% - 40px);
+  overflow: hidden;
+}
+.myorder .safe-py .p{
+  color:#c1c1c1;
+  font-size: 12px;
+}
+.myorder .safe-py .radius-safe-right>div:nth-child(1){
+  width:50%;
+}
+.myorder .safe-py .radius-safe-right>div:nth-child(2){
+  width:50%;
+  color:#ea321a;
+  font-size: 13px;
+  line-height: 40px;
+  text-align:right;
+ }
+.myorder .line-order{
+  border-top: 1px solid #9a9691;
+  border-bottom: 1px solid #9a9691;
+  text-align: right;
+  padding:4px 0;
+  font-size: 12px; 
+}
+.myorder .line-order>span{
+  color:#303030;
+}
+.myorder .warn{
+  text-align: right;
+  font-size: 12px;
+  padding:10px;
+}
+.myorder .warn>span{
+  width: 70px;
+  height: 25px;
+  border-radius:15px;
+  line-height: 23px;
+  text-align: center;
+  border:1px solid #303030;
+  color:#303030;  
+}
+.myorder .ord-1 .warn>span:nth-child(2){
+  margin-left:94px;
+  border:1px solid #ea321a;
+  color:#ea321a;
+}
+.myorder .ord-2.warn>span{
+  margin-left:8px
+}
+.myorder .ord-2 .warn>span:nth-child(3){
+  border:1px solid #ea321a;
+  color:#ea321a;
+  margin-left: 8px;
+}
+.myorder .text-red{
+  color:#ea321a;
+  font-size: 14px;
+  text-align: right;
+  padding:3px 15px;
+  background-color:#f2f2f2;
+}
+.myorder .item{
+  border:none;
+}

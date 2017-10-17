@@ -1,0 +1,42 @@
+<ion-modal-view>
+	<div class="upaddress">
+	  	<ion-header-bar class="bar bar-header bar-dark">
+			<div class="button button-clear" ng-click="closeModal();"><span class="ion ion-ios-arrow-left ion-size fl"></span><span class="text-size fl" >返回</span></div>
+			<div class="title title-center">添加新的地址</div>
+			<div class="button button-clear" ng-click="closeModal();">保存</div>
+		</ion-header-bar>
+	  	<ion-content has-bouncing="false" scrollbar-y="false">
+			<div class="list list-form">
+				<label class="item item-input">
+				    <span class="input-label">收货人</span>
+				    <input type="text">
+				</label>
+			    <label class="item item-input">
+				    <span class="input-label">联系人</span>
+				    <input type="text">
+				</label>
+			  	<div class="item item-icon-right">
+				    所在地区
+				    <span class="badge">请选择</span>
+				    <i class="icon ion-ios-arrow-right"></i>
+			  	</div>
+			  	<div class="item item-icon-right" >
+			  		街道
+					<span class="badge">请选择</span>
+				    <i class="icon ion-ios-arrow-right"></i>
+			  	</div>
+			  	<div class="pad">
+					<textarea class ="tex-p" placeholder="详细地址"></textarea>
+			  	</div>
+			  	<div class="item it-p" >
+			  		<span class="fl"> 设为默认地址</span>
+				    <label class="yes fr">
+						<input class="ipt" type="checkbox" name="">
+						<div class="icon-box-less icon ion-checkmark-round fl">
+						</div>	
+					</label>
+			  	</div>
+		  	</div>
+	  	</ion-content>
+	</div>
+</ion-modal-view>

@@ -1,0 +1,48 @@
+.collect .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.collect .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.collect .bg{
+  background-color:#fff;
+  padding-bottom: 10px;
+}
+.collect ion-content{
+  width:100%;
+  top:44px;
+  bottom:48px;
+  background-color: #fff;
+  margin:0;
+}
+.collect .bg-item{
+  border:1px solid #c5c5c5;
+}
+.collect .warn{
+  font-size: 12px;
+  padding:10px;
+}
+.collect .warn>span{
+  width: 80px;
+  height: 25px;
+  border-radius:15px;
+  line-height: 21px;
+  text-align: center;
+}
+.collect .warn>span:nth-child(1){ 
+  border:1px solid #303030;
+  color:#303030; 
+}
+.collect .warn>span:nth-child(2){
+  border:1px solid #ea321a;
+  color:#ea321a;
+}
+.collect .row-warn{
+  padding:0;
+  border-top:1px solid #9a9691;
+}

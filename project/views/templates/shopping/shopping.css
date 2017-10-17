@@ -1,0 +1,196 @@
+.shopping .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.shopping .btn{
+  right:60px !important;
+  font-size:15px !important;
+}
+.shopping .bg{
+  background-color: #e4e2df;
+  padding-bottom: 0px;
+}
+.shopping ion-content{
+  width:100%;
+  top:44px;
+  bottom:94px;
+  background-color: #e4e2df;
+  margin:0;
+}
+.shopping .yes{
+  width:20px;
+  height:20px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  margin:auto 0;
+}
+.shopping .ipt{
+  display:none;
+}
+.shopping .icon-box-less{
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  color:#fff;
+  text-align:center;
+  line-height: 18px;
+  border:1px solid #303030;
+}
+.shopping .icon-box-less>div{
+  display:none;
+}
+.shopping .ipt:checked+div{
+  background-color:#ea321a;
+  border:1px solid #ea321a;
+}
+.shopping .ipt:checked+div>div{
+  display:block;
+}
+.shopping .item-note{
+	color:#303030;
+}
+.shopping .it-p{
+	padding:10px 20px;
+	background-color:#f0efed;
+}
+.shopping .goods{
+  padding:0 0 0 34px;
+}
+.shopping .item{
+  border:none
+}
+.shopping .shopping-box{
+  width:100%;
+  padding:10px 20px;
+  position: relative;
+  background-color:#fff;
+  margin-bottom: 9px;
+}
+.shopping .img-shopping{
+  margin-right: 5px;
+}
+.shopping .color-text{
+  overflow: hidden;
+  color:#ea321a;
+}
+.shopping .bg-item{
+  padding-right: 0;
+}
+.shopping .recommend-text{
+  background-color:#78a5da;
+  color:#fefefe;
+  padding:5px 15px ;
+  margin-top: 12px;
+}
+.shopping .recommend-row{
+  padding:0;
+}
+.shopping .recommend-row>.left{
+  background-color:#d3d0cb;
+  padding:0 2.5px 0 0;
+}
+.shopping .recommend-row>.right{
+  background-color:#d3d0cb;
+  padding:0 0 0 2.5px;
+}
+.shopping .recommend-row>div>div:nth-child(2){
+  color:#303030;
+  font-size:12px;
+  padding:7px 15px;
+}
+.shopping .recommend-row>div>div:nth-child(3){
+  font-size:14px;
+  color:#ea321a;
+  padding:0 15px 7px 15px;
+}
+.shopping .it-ion{
+  background-color:#9dacd3;
+  font-size:12px;
+  padding:5px 15px;
+}
+.shopping .it-ion>i{
+  color:#fff;
+  font-size:20px;
+}
+.shopping .settle{ 
+  background-color:#3a495c;
+  bottom:49px;
+  height:45px;
+  width:100%;
+  overflow: hidden;
+  position:absolute;
+  padding:0 0 0 15px;
+}
+.shopping .icon-box-white{
+  border:1px solid #fff;
+}
+.shopping .settle-bgr{
+  background-color:#ea321a;
+  color:#fff;
+  font-size:16px;
+  height:45px;
+  line-height:43px;
+  text-align:center;
+  width:90px;
+}
+.shopping .total{
+  color:#fefefe;
+  font-size:12px;
+  padding-right:15px;
+  text-align:right;
+  padding-top: 2.5px;
+}
+.shopping .settle p:nth-child(1){
+  margin-bottom:0;
+  font-size:14px;
+}
+.shopping .settle p:nth-child(2){
+  font-size:12px;
+}
+.shopping .remover-shopping{
+  background-color:#D4DC22;
+  color:#fff;
+  font-size:16px;
+  height:45px;
+  line-height:43px;
+  text-align:center;
+  width:90px;
+}
+.shopping .compile>.num{
+  overflow: hidden;
+}
+.shopping .compile span{
+  width:30px;
+  height: 20px;
+  text-align:center;
+  line-height: 20px;
+  border:1px solid #111;
+  box-sizing:border-box;;
+}
+.shopping .compile input{
+  width:60px;
+  height: 20px;
+  text-align:center;
+  line-height: 20px;
+  border:1px solid #111;
+  margin:0 10px;
+}
+.shopping .finish{
+  text-align: center;
+  margin-top:10px;
+  width:140px;
+  height: 30px;
+  background-color:#aa1231;
+  line-height: 30px;
+}
+.shopping .h-text{
+  text-align:center;
+}
+.shopping .yes-all{
+  color:#fff;
+  text-align:center;
+  line-height:45px;
+  padding-left:30px;
+}

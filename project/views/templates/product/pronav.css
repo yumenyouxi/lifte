@@ -1,0 +1,32 @@
+.product-footer{
+	position:absolute;
+	bottom:0;
+	z-index:3;
+	width:100%;
+	height:45px;
+	text-align:center;
+	padding:0;
+}
+.product-footer .foot-ion{
+	background-color:#fff;
+	padding:4.5px;
+}
+ .product-footer .foot-ion>div:nth-child(1){
+	font-size:18px;
+	height:18px;
+
+}
+.product-footer .foot-ion>div:nth-child(2){
+	font-size:12px;
+	height:18px;
+}
+ .product-footer .color-bg-1{
+	background-color:#f2c53e; 
+	color:#fff;
+	line-height:35px;
+}
+.product-footer .color-bg-2{
+	background-color:#ea321a;
+	line-height:35px;
+	color:#fff;
+}

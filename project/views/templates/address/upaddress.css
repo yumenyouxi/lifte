@@ -1,0 +1,83 @@
+.upaddress .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.upaddress .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.upaddress ion-content{
+  width:100%;
+  top:44px;
+  background-color: #f2f2f2;
+}
+.upaddress textarea{
+  width:100%;
+  height:80px;
+  outline:none;
+  resize:none;
+}
+.upaddress .tex-p::-webkit-input-placeholder{
+  color:#595959;
+}
+.upaddress .tex-p::-moz-placeholder{
+  color:#595959;
+}
+.upaddress .tex-p::-o-input-placeholder{
+  color:#595959;
+}
+.upaddress .pad{
+  width:100%;
+  background-color:#fff;
+  padding:10px 20px;
+}
+.upaddress .it-pad{
+  padding:10px 38px 10px 20px;
+  border:none;
+}
+.upaddress .yes{
+  width:15px;
+  height:15px;
+  margin-top:3px;
+  
+}
+.upaddress .ipt{
+  display:none;
+}
+.upaddress .icon-box-less{
+  width:15px;
+  height:15px;
+  color:#fff; 
+  text-align:center;
+  line-height: 13px;
+  border:1px solid #303030;
+  
+}
+.upaddress .ipt:checked+div{
+  background-color:#ea321a;
+  border:1px solid #ea321a;
+}
+.upaddress .it-p{
+  padding:10px 20px 10px 20px;
+  margin-top: 9px;
+  border:none;
+}
+.upaddress .item{
+  color: #303030;
+}.upaddress .badge{
+  font-weight: normal;
+  line-height:12px;
+  color: #595959;
+}
+.upaddress .ion-ios-arrow-right:before {
+    font-size: 21px;
+}
+.upaddress .item-input{
+  padding:1px 10px 1px 20px;
+  border:none;
+}.upaddress .input-label{
+  width:70px;
+}

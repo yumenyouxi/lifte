@@ -1,0 +1,72 @@
+.login .bg{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.login .row,.col{
+	padding:0;
+}
+.login .login-box{
+	width:100%;
+	position: absolute;
+	top:calc(8% + 40px);
+}
+.login .img-header{
+	width: 25%;
+	max-width: 80px;
+	margin:0 auto 25px auto;
+}
+.login .input-label{
+	width: 42px;
+}
+.login .item-input{
+	margin-bottom:20px;
+	border-radius: 10px;
+	padding:0 10px;
+}
+.login .text{
+	text-align: right;
+}
+.login .btns{
+	width: 50%;
+	margin:12px auto; 
+}
+.login .btns>button{
+	min-height:35px;
+	line-height: 35px;
+}
+.login .line-li{
+	width:calc(50% - 50px);
+	height:1px;
+	background-color:#fefefe;
+	margin-top: 7.5px;
+}
+.login .line{
+	position:relative;
+	overflow: hidden;
+	width:100%;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    line-height:18px;
+    color:#fefefe;
+    height:18px;
+}
+.line-text{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0px;
+	margin:0 auto;
+	width:100px;
+	text-align:center;
+}
+.login .padding{
+	padding:13px;
+	max-width:60px;
+	margin:0 auto;
+}
+.login .login-else{
+	width:100%;
+	padding-top: 55px;
+}

@@ -1,0 +1,40 @@
+html,body{
+  height:100%;
+}
+body{
+	margin:0 auto;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6,ul,li,ol,input,img,p,textarea{
+	margin:0;
+	padding:0;
+}
+ul,li,ol{
+	list-style:none;
+}
+a,a:hover{
+	text-decoration:none;
+}
+input,textarea{
+	outline:none;
+}
+span,i,a,label{
+	display:inline-block;
+}
+img{
+	width: 100%;
+	height: auto;
+	display:block;
+}
+a{
+	color:#000;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+table{
+  border-collapse: collapse;
+}

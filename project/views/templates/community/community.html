@@ -1,0 +1,50 @@
+<div class="community">
+  	<ion-header-bar class="bar bar-header bar-my bar-dark" >
+		<div class="button button-clear" ng-click="jump('/home')"><span class="ion ion-ios-arrow-left ion-size fl"></span><span class="text-size fl" onClick="javascript :history.back(-1);">返回</span></div>
+		<div class="title">社区</div>
+		<div class="button button-clear" ng-click="jump('message');"><span class="ion ion-ios-chatbubble-outline ion-size"></span></div>
+	</ion-header-bar>
+  	<ion-content class="top-head" has-bouncing="false" scrollbar-y="false">
+	  	<div class="bbg">
+			<div class="bg">
+				<img src="/images/community-bg.png">
+				<div class="row">
+					<div class="col"></div>
+					<div class="col col-center">
+						
+						<div class="community-head">
+							<img src="/images/community-head1.png">
+						</div>
+						<div>网红</div>
+						
+					</div>
+					<div class="col"> </div>
+				</div>
+			</div>
+			<div class="list list-box">
+			    <div class="item item-avatar">
+			      <img src="/images/community-head2.png">
+			      <h3>网黑</h3>
+			      <p class="text-p">这个买的太值，朋友们快去抢购，下次我还买这个</p>
+			    </div>
+			    <div class="row pdr-row">
+					<div class="col-50">
+						<div>
+							<img src="/images/community-chanpin.png">
+						</div>
+						<div class="pdr-row-text1"><span>1<span><span>小时之前</span></div>
+					</div>
+					<div class="col-50 col-bottom pdr-row-text2">
+
+						<div class="ion ion-edit fr" ng-click="isShow();"></div>
+						<div class="fr clicklike" ng-if="isCross">
+							<span class="ion-android-favorite-outline">&nbsp;&nbsp;点赞</span>
+							<span class="ion-ios-compose-outline">&nbsp;&nbsp;评论</span>
+						</div>
+					</div>
+			    </div>
+			</div>
+		</div>
+  	</ion-content>
+</div>
+    

@@ -1,0 +1,108 @@
+.community .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.community .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.community ion-content{
+  width:100%;
+  top:44px;
+  bottom:49px;
+  background-color: #e1e1e1;
+}
+.community .bbg{
+  background-color: #e1e1e1;
+  padding-bottom:10px;
+}
+.community .bg{
+  position: relative;
+  background-color:#fff; 
+}
+.community .bg>div{
+  position: absolute;
+  top:0;
+  bottom:0;
+  padding: 0;
+ 
+}
+.community .register-head{
+  width:55%;
+  margin:0 auto;
+  max-width: 85px;
+}
+.community ..community .bg{
+  position: relative;
+  background-color:#fff; 
+}
+.community .bg>div{
+  position: absolute;
+  top:0;
+  bottom:0;
+  padding: 0;
+ 
+}
+.community .community-head{
+  width:55%;
+  margin:0 auto;
+  max-width: 85px;
+}
+.community .community-head+div{
+  text-align: center;
+  padding-top: 10px;
+
+}
+.community .text-p{
+  font-size: 12px;
+}
+.community .item{
+  border:1px solid #fff;
+}
+.community .text-p{
+  font-size: 12px;
+}
+.community .pdr-row{
+  position:relative;
+  padding-left:72px; 
+  padding-right:16px;
+}
+.community .item{
+  border:1px solid #fff;
+}
+.community .list-box{
+  padding:20px 0;
+  background-color:#fff; 
+  margin-bottom: 1px;
+}
+.community .pdr-row-text1{
+  padding-top:8px;
+  color:#646464;
+  font-size: 12px;
+}
+.community .pdr-row-text2{
+  vertical-align: middle;
+  height:21.5px;
+  text-align: right;
+  font-size:18px;
+}
+.community .clicklike{
+  position:absolute;
+  bottom:5px;
+  right:38px;
+  background-color:#353636;
+  color:#fff;
+  font-size:12px;
+  width:120px;
+  height:25px;
+  border-radius: 5px;
+  line-height: 25px;
+  text-align:center;
+  margin-right: 6px;
+}
+.community .clicklike>span{
+  padding:0 5px;
+}

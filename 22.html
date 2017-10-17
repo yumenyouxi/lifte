@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		.box{
+			width:200px;
+			height:200px;
+			border:1px solid red;
+			padding:2px; 
+			margin:2px; 
+			background-color:#00f;
+			opacity: 0;
+		/* 	visibility: hidden; */
+			float: left;
+		}
+		.bo{
+			width: 1200px;
+			height: 300px;
+			background-color: #0f0;
+		}
+		.box1{
+			width: 100px;
+			height: 100px;
+			background-color: #f00;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="bo">
+		<div class="box" id="a" onclick="this.innerHTML='谢谢!'">><span>12334</span></div>
+		<div style="width:100px; height: 200px; background-color:#113267; float: left;"></div>
+		<div class="box1"><span>asdasda</span></div>
+	</div>
+</body>
+<script type="text/javascript">
+		var o={
+			name:13
+		 };
+		o.prototype=function(){
+			console.log(11);
+			this.name='我是原型';
+		}
+
+		var Vehicle = function () {
+		  this.price = 1000;
+		  return 1000;
+		};
+		var a =o;
+		console.log('a==>',a);
+		console.log('Vehicle()==>',Vehicle());
+		console.log('a.price==>',a.price);
+
+		var arr=[];
+		console.log(arr instanceof Array);
+		console.log(arr.constructor===Array);
+		console.log(Array.isArray(arr));
+		console.log(Array.prototype.isPrototypeOf(arr));
+		console.log(Object.getPrototypeOf(arr)===Array.prototype)
+		console.log(Object.prototype.toString.call(arr) === '[object Array]')
+</script>
+</html>

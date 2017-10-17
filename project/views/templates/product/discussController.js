@@ -1,0 +1,10 @@
+app.controller('discussController',['$scope',function($scope){
+	 $scope.disImgUrl=[
+    '/images/chanpin_2@2x.png',
+    '/images/chanpin_2@2x.png',
+    '/images/chanpin_2@2x.png',
+    '/images/chanpin_2@2x.png',
+    '/images/chanpin_2@2x.png',
+    '/images/chanpin_2@2x.png',
+  ]
+}])

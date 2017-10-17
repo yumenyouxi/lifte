@@ -1,0 +1,44 @@
+.confirmAddress .ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.confirmAddress .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.confirmAddress .bg{
+  background-color:#e4e2df;
+}
+.confirmAddress ion-content{
+  width:100%;
+  top:44px;
+  background-color: #e4e2df;
+  margin:0;
+}
+.confirmAddress .address{
+  background-color:#fff;
+  margin-bottom:1px;
+  padding:5px 0;
+}
+.confirmAddress .address>div{
+  padding:5px 15px;
+  overflow:hidden;
+}
+.confirmAddress .color-text{
+  color:#ea321a;
+}
+.confirmAddress .color-text+span{
+  width:calc(100% - 70px);
+  padding-left: 5px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.confirmAddress .text{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}

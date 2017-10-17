@@ -1,0 +1,146 @@
+.home .head-ipt{
+  border-bottom:1px solid #ffffdb;
+  border-radius: 0px;
+  margin: -15px 15px 0 15px;
+  padding:0;
+}
+.home .btn{
+  position:relative;
+  height:40px;
+  width:24px;
+  margin-top: 3px;
+}
+.home .top-s{
+  font-size:28px;
+  position:absolute;
+  top:0;
+  width:24px;
+  text-align:center;
+}
+.home .bom-x{
+  font-size:12px;
+  -webkit-transform:scale(0.67,0.67);
+  -moz-transform:scale(0.67,0.67);
+  -ms-transform:scale(0.67,0.67);
+  -o-transform:scale(0.67,0.67);
+  transform:scale(0.67,0.67);
+  width:36px;
+  position:absolute;
+  bottom:0;
+}
+.home .l{
+  left: -7px;
+}
+.home .r{
+  left:-4px;
+}
+.home .l-size{
+  color:#fff;
+  font-size: 32px;
+  height: 35px;
+  line-height: 30px;
+}
+.home .head-ipt>input[type="search"] {
+  color: #fff ;
+}
+.home ion-content{
+  top:44px;
+  bottom:50px;
+}
+.home .slider-pager .slider-pager-page{
+  color:#d26045;
+}
+.home .head-right{
+	float: right;
+	max-width: 50px;
+	width: 50px;
+	color: #fff ;
+	text-align: center;
+  font-size: 	12px !important;
+}
+.home .img-col{
+  width:55%;
+  margin:0 auto;
+  max-width:80px;
+}
+.home .img-col+div{
+  text-align:center;
+  padding-top: 8px;
+}
+.home .pa-row{
+  padding: 12px 5% 0px 5%;
+}
+.home .pa-row>div{
+  margin:12px 0;
+}
+.home .border-row{
+  margin:0px 0 15px 0;
+}
+.home .home-box{
+  position:relative;
+  margin:25px 0;
+}
+.home .home-box-list{
+  overflow: hidden;
+}
+.home .home-title{
+  color:#fff;
+  width:90px;
+  height:30px;
+  border-top-right-radius:15px;
+  border-bottom-right-radius:15px;
+  text-align:center;
+  line-height: 30px;
+  position:absolute;
+  top:-15px;
+  left:0;
+}
+.home .imgbox{
+  width:100%;
+}
+.home .img-big{
+  width:calc(64% - 2px);
+  padding-right: 2px;
+}
+.home .home-box-list>div{
+  float:left;
+}
+.home .img-list{
+  width:calc(36% - 1px);
+  padding-left: 1px;
+}
+.home .box-text{
+  width:100%;
+  line-height: 30px;
+}
+.home .imgs-four{
+  padding:0;
+}
+.home .imgs-f{
+  box-sizing: border-box;
+}
+.home .imgs-leline{
+  border-left:1px solid #c7c7c7;
+}
+.home .imgs-f+div{
+  text-align:center;
+  font-size:12px;
+}
+.home .color-1{
+  color:#ff3183;
+}
+.home .bg-1{
+    background-color:#ff3183;
+}
+.home .color-2{
+  color:#fd3909;
+}
+.home .bg-2{
+    background-color:#fd3909;
+}
+.home .color-3{
+  color:#b450fe;
+}
+.home .bg-3{
+    background-color:#b450fe;
+}

@@ -1,0 +1,71 @@
+.my .ion-size{
+  height:30px;
+  font-size:22px;
+  line-height:34px;
+}
+.my .text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.my ion-content{
+  width:100%;
+  top:44px;
+  background-color: #f2f2f2;
+  bottom:49px;
+}
+.my .bg{
+  position: relative;
+  background-color:#fff; 
+}
+.my .bg>div{
+  position: absolute;
+  top:0;
+  bottom:0;
+  padding: 0;
+ 
+}
+.my .my-head{
+  width:55%;
+  margin:0 auto;
+  max-width: 85px;
+}
+.my .my-head+div{
+  text-align: center;
+  padding-top: 10px;
+
+}
+.my .text-p{
+  font-size: 12px;
+}
+.my .pdr-row{
+  padding-left:72px; 
+   padding-right:16px;
+}
+.my .item{
+  color: #707070 !important;
+  border:1px solid #fff;
+}
+.my .img-col{
+  margin:0 auto;
+  max-width:80px;
+}
+.my .img-col+div{
+  text-align:center;
+  padding-top: 8px;
+  font-size: 12px
+}
+.my .pa-row{
+  padding: 0px 5%;
+}
+.my .border-row{
+  padding: 15px 0px;
+  background-color:#fff;
+}
+.my .margin{
+  margin:9px 0;
+}
+.my .list-form{
+  margin-bottom: 22px;
+}

@@ -1,0 +1,62 @@
+<div class="login">
+	<ion-content has-bouncing="false">
+	    <div class="bg">
+	    	<img src="/images/login.png">
+			<div class="login-box">	
+				<div class="row ipt">
+					<div class="col-10"></div>
+					<div class="col-80">
+						<div class="img-header">
+							<img src="/images/header.png">
+						</div>
+					
+						<label class="item item-input">
+						    <span class="input-label">帐号</span>
+						    <input type="text" ng-model="loginData.phone">
+						</label>
+						<label class="item item-input">
+						    <span class="input-label">密码</span>
+						    <input type="password" ng-model="loginData.pwd">
+						</label>
+						
+						<div class="text" ng-click="jump('forgetuser');">忘记密码？</div>
+						<div class="btns">
+							<button class="button button-block button-assertive btn1" ng-click="login();">
+							 	登录
+							</button>
+							<button class="button button-block button-stable  btn2 " ng-click="jump('register')">
+							    注册
+							</button>
+						</div>							
+					</div>
+					<div class="col-10"></div>		
+				</div>
+				<div class="login-else">
+					<ul class="line">
+						<li class="fl line-li"></li>
+						<li class="line-text">其他登录方式</li>
+						<li class="fr line-li"></li>
+					</ul>
+					<div class="row else">
+						<div class="col-25"></div>
+						<div class=col-50>
+							<div class="row">
+								<div class="col-33 padding">
+									<img src="/images/weixin.png">
+								</div>
+								<div class="col-33 padding">
+									<img src="/images/qq.png">
+								</div>
+								<div class="col-33 padding">
+									<img src="/images/taobao.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-25"></div>
+					</div>
+				</div>	
+		    </div>
+		    	
+		</div>
+    </ion-content>
+</div> 

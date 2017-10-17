@@ -1,0 +1,53 @@
+.ion-size{
+  height:30px;
+  font-size:25px;
+  line-height:34px;
+}
+.text-size{
+  height:30px;
+  font-size:13px;
+  line-height:33px;
+  padding-left:5px;
+}
+.classify ion-content{
+  top:129px;
+  width:100%;
+  background-color: #e4e2df	;
+  bottom:49px;
+}
+.classify .sub-padding{
+	padding:10px 15px;
+}
+.classify .sub-padding>div{
+	max-width: 40px;
+	margin:0 auto;
+}
+.classify .text-center{
+	padding-top:3px;
+	text-align: center;
+}
+
+.classify .row-pad{
+	padding:12px 3px;
+}
+.classify .col-pad{
+	padding:0 6px; 
+}
+.classify .text-color{
+	background-color:#fff;
+	text-align:center;
+}
+.classify .text-color>p:nth-child(2){
+	color:#ea321a;
+}
+.classify .soll{
+	background-color:#437b8c;
+	height:85px;
+	position:absolute;
+	top:44px;
+	width:100%;
+	z-index:66;
+}
+.classify .active{
+	color:#fff;
+}

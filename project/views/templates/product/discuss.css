@@ -1,0 +1,109 @@
+.discuss ion-header-bar{
+	background-size:0;
+	border:0;
+}
+.discuss .head-bg{
+	background-color:rgba(255,255,255,1);
+
+}
+.discuss .head-bg>div{
+	color:#000;
+	width:31px;
+	height: 31px;
+	background-color: #fff;
+	line-height:28px;
+	text-align: center;
+	font-size: 22px;
+}
+.discuss .head-bg>div:nth-child(3){
+	margin-right: 50px;
+	font-size:18px;
+}
+.discuss .head-bg>div:nth-child(2){
+	margin:auto;
+	width:59px;
+	height:44px;
+	border-radius:0;
+}
+.discuss ion-content{
+	background-color:#e4e2df;
+}
+.discuss .img-title{
+	margin:auto;
+	width:59px;
+	height:44px;
+}
+.discuss .btn-color{
+	font-size:16px !important;
+}
+.discuss .remark{
+	background-color:#fff;
+	margin-bottom:1px;
+	padding:0 15px;
+}
+.discuss .remark>div:nth-child(1){
+	margin-bottom: 10px;
+}
+.discuss .remark span{
+	border-radius:18px;
+	background-color:#db80d3;
+	color:#fff;
+	font-size:10px;
+	height: 25px;
+    line-height: 24px;
+	margin-right: 8px;
+	text-align:center;
+	padding:0px 10px;
+}
+.discuss .all{
+	background-color:#ffb149 !important;
+}
+.discuss .bad{
+	background-color:#d0ccc7 !important;
+}
+.discuss .text-box{
+	width: 100%; 
+	display: -webkit-box; 
+	-webkit-line-clamp: 3; 
+	-webkit-box-orient: vertical; 
+	overflow: hidden;
+}
+.discuss .text-img{
+	background-color:#fff;
+	overflow:hidden;
+	height:40px;
+	line-height:30px;
+	padding:5px 15px;
+}
+.discuss .text-img>div:nth-child(1){
+	width:25px;
+	height:25px;
+	margin:2.5px 8px 2.5px 0;
+}
+.discuss .text-color{
+	color:#888580;
+	padding:5px 15px
+}
+.discuss .text-box{
+	padding:3px 15px;
+}
+.discuss .commun-bg{
+	background-color:#fff;
+	margin-bottom: 9px;
+}
+.discuss .moods{
+	overflow:hidden;
+	padding:0px 15px 9px 15px;
+}
+.discuss .like>span{	
+	border-radius:6px;
+	background-color:#48bad7;
+	height:25px;
+	line-height:25px;
+	margin-left: 9px;
+	padding:0 10px;
+	text-align:center;
+}
+.discuss .pad-col{
+	padding:5px;
+}

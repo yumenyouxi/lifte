@@ -1,0 +1,22 @@
+<div class="classify" my-directive>		
+	<ion-header-bar class="bar bar-header bar-my bar-dark" scrollbar-y="false">
+		<div class="button button-clear" ng-click="jump('/home')"><span class="ion ion-ios-arrow-left ion-size fl"></span><span class="text-size fl" onClick="javascript :history.back(-1);">返回</span></div>
+		<div class="title">商品分类</div>
+		<div class="button button-clear" ng-click="jump('message');"><span class="ion ion-ios-chatbubble-outline ion-size"></span></div>		
+	</ion-header-bar>
+	
+	<ion-scroll direction="x" scrollbar-x="false" class="soll" delegate-handle="classifyScroll">
+		<ul class="row ">
+			<li ng-repeat="m in classifyImgText" ng-class="{true: 'col col-20 sub-padding col-center active', false: 'col col-20 sub-padding col-center'}[m.isTrue]"  ng-click="select($index)">
+				<div>
+					<img ng-src="{{m.url}}">
+				</div>
+				<div class="text-center">
+					{{m.text}}
+				</div>	
+			</li>
+		</ul>
+	</ion-scroll>
+	<ion-nav-view ></ion-nav-view>			
+</div>
+    

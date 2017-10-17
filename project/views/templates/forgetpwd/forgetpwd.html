@@ -1,0 +1,29 @@
+<ion-header-bar class="bar-dark">
+	<div class="button button-clear" ng-click="goback()"><span class="ion ion-ios-arrow-left ion-size fl"></span><span class="text-size fl">返回</span></div>
+	<span class="title">修改密码</span>
+</ion-header-bar>
+<ion-content class="forgetpwd">
+	<div class="bg">
+		<ion-list>
+			<label class="item item-input">
+		    	<i class="icon ion-ios-locked placeholder-icon"></i>
+		    	<input class="ipt" type="password" placeholder="新密码6-16位"  ng-model="forgetpwd.newPwd"/>
+	  		</label>
+	  		<label class="item item-input">
+		    	<i class="icon ion-ios-locked placeholder-icon"></i>
+		    	<input class="ipt" type="password" placeholder="确认新密码" ng-model="forgetpwd.rePwd"/>
+	  		</label>
+		</ion-list>
+		<div class="row">
+			<div class="col col-offset-10 col-80">
+				<button class="button button-block button-positive" ng-click="modifyPwd();">确认</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-offset-25 col-50">
+				<a class="fl positive" ui-sref="register">注册</a>
+				<a class="fr positive" ui-sref="login">登录</a>
+			</div>
+		</div>
+	</div>
+</ion-content>

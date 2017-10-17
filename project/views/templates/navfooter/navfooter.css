@@ -1,0 +1,8 @@
+.navfooter .tabs{
+  left:0;
+  border: none;
+  background-size:0;
+}
+.navfooter .tabs a{
+  color:#c9c9c9;
+}

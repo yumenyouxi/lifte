@@ -1,0 +1,159 @@
+<div class="home">
+	<ion-header-bar  class="bar bar-header bar-dark  item-input-inset">
+	    <div class="btn">
+          	<span class="icon ion-qr-scanner top-s"></span>
+          	<span ><i class="bom-x l">扫一扫</i></span>   
+	    </div>
+	      
+	    <label class="item-input-wrapper dark-bg head-ipt" ng-click="jump('search');">
+	        <i class="icon ion-ios-search placeholder-icon l-size ion-left"></i>
+	        <input  type="search" placeholder="">
+	        <i class="icon ion-right  ion-ios-camera-outline placeholder-icon l-size"></i>
+	    </label>
+	     
+	    <div class="btn" ng-click="jump('message');">
+	        <span class="icon ion-ios-chatbubble-outline top-s"></span>
+	        <span><i class="bom-x r">消&nbsp;息</i></span>
+	    </div>
+	</ion-header-bar>
+    <ion-content class="top-bottom" has-bouncing="false" scrollbar-y="false">
+	    <ion-slide-box does-continue="true" auto-play="true" slide-interval="2000" show-pager="true">
+	        <ion-slide ng-repeat="img in bannerImgUrl track by $index">
+	          <div><img ng-src="{{img}}"></div>
+	        </ion-slide>
+	    
+	    </ion-slide-box>
+		    
+	    <div class="border-row">
+	    	<div class="row pa-row row-wrap" >   	
+				<div class="col-25" ng-click="jump('{{v.jump}}');" ng-repeat="v in items">
+					<div class="img-col">
+						<img ng-src="{{v.url}}">
+					</div>
+					<div>{{v.text}}</div>
+				</div>			
+		    </div>
+	    </div>
+	    <div class="home-box">
+			<div class="home-box-list color-1">
+				<div class="home-title bg-1">
+					原创灯饰
+				</div>
+				<div class="img-big" ng-click="jump('product');">
+					<img src="/images/home1.png">
+				</div>
+				<div class="img-list" ng-click="jump('product');">
+					<img src="/images/home2.png">
+				</div>
+				<div class="box-text">时尚/Fashion</div>
+				<div class="row imgs-four">
+			    	<div class="col">
+						<div class="imgs-f">
+							<img src="/images/home3.png">
+						</div>
+						<div>朝花夕瓷</div>
+					</div>
+					<div class="col">
+						<div class="imgs-f imgs-leline">
+							<img src="/images/home4.png">
+						</div>
+						<div>炫彩定时灯</div>
+					</div>
+					<div class="col">
+						<div class=" imgs-f imgs-leline">
+							<img src="/images/home5.png">
+						</div>
+						<div>森林宠物台灯</div>
+					</div>
+					<div class="col">
+						<div class=" imgs-f imgs-leline">
+							<img src="/images/home6.png">
+						</div>
+						<div>鸟语</div>
+					</div>
+			    </div>
+		    </div>
+	    </div>
+	    <div class="home-box">
+			<div class="home-box-list color-2">
+				<div class="home-title bg-2">
+					新奇设计
+				</div>
+				<div class="img-big">
+					<img src="/images/home7.png">
+				</div>
+				<div class="img-list">
+					<img src="/images/home8.png">
+				</div>
+				<div class="box-text">新奇/Newness</div>
+				<div class="row imgs-four">
+			    	<div class="col">
+						<div class="imgs-f">
+							<img src="/images/home9.png">
+						</div>
+						<div>白石葫芦</div>
+					</div>
+					<div class="col">
+						<div class="imgs-f imgs-leline">
+							<img src="/images/home10.png">
+						</div>
+						<div>小笼包</div>
+					</div>
+					<div class="col">
+						<div class=" imgs-f imgs-leline">
+							<img src="/images/home11.png">
+						</div>
+						<div>咖啡时光</div>
+					</div>
+					<div class="col">
+						<div class=" imgs-f imgs-leline">
+							<img src="/images/home12.png">
+						</div>
+						<div>ow灯泡</div>
+					</div>
+			    </div>
+		    </div>
+	    </div>
+	    <div class="home-box">
+			<div class="home-box-list color-3">
+				<div class="home-title bg-3">
+					儿童家品
+				</div>
+				<div class="img-big">
+					<img src="/images/home13.png">
+				</div>
+				<div class="img-list">
+					<img src="/images/home14.png">
+				</div>
+				<div class="box-text">儿童/Child</div>
+				<div class="row imgs-four">
+			    	<div class="col">
+						<div class="imgs-f">
+							<img src="/images/home15.png">
+						</div>
+						<div>感疯鸟</div>
+					</div>
+					<div class="col">
+						<div class="imgs-f imgs-leline">
+							<img src="/images/home16.png">
+						</div>
+						<div>猫和老鼠</div>
+					</div>
+					<div class="col">
+						<div class=" imgs-f imgs-leline">
+							<img src="/images/home17.png">
+						</div>
+						<div>蝙蝠侠</div>
+					</div>
+					<div class="col">
+						<div class=" imgs-f imgs-leline">
+							<img src="/images/home18.png">
+						</div>
+						<div>蝙蝠侠</div>
+					</div>
+			    </div>
+		    </div>    
+	    </div>    
+	</ion-content>
+</div>	
+  
